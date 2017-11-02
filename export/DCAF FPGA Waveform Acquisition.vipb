@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-07-28 09:21:04" Modified_Date="2017-07-28 09:36:22" Creator="test" Comments="" ID="a5b789b6f0455bfaefa0bcdfe736c115">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-07-28 09:21:04" Modified_Date="2017-10-30 09:18:09" Creator="test" Comments="" ID="8c283e4586b1abc2ebc69c21e40a2bbb">
   <Library_General_Settings>
     <Package_File_Name>ni_DCAF_FPGA_Waveform_Acquisition</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\dev</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -17,9 +17,9 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>lvpec_lib_waveform_acquisition &gt;=1.0.0.5</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_frmwk_dcaf_core &gt;=1.2.0.4</Additional_External_Dependencies>
       <Additional_External_Dependencies>ni_lib_dcaf_instruction_framework_support &gt;=1.0.0.1</Additional_External_Dependencies>
+      <Additional_External_Dependencies>pec_lib_waveform_acquisition &gt;=1.0.0.6</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -139,9 +139,6 @@
       <Exclusions>
         <Path>WaveformAcq.lvproj</Path>
       </Exclusions>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
